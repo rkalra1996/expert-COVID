@@ -9,12 +9,6 @@ html, body {
     background-color: #8bc95f; 
 }
 
-iframe {
-    border-radius: 5px;
-    outline: none;
-    margin-right: 10px;
-}
-
 .banner {
     display: flex;
     vertical-align: middle;
@@ -41,7 +35,7 @@ iframe {
     padding: 10% 20px;
     max-width: 40%;
     font-size: 3.2rem;
-    color: white;
+    color: black;
 }
 
 .content .intro p {
@@ -63,6 +57,18 @@ iframe {
     bottom: 40px;
 }
 
+.botPlace #bot-container {
+    height: 90%;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+.botPlace #bot-container iframe {
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
 .botPlace .chatbot-toggle {
     cursor: pointer;
     background-color: white;
@@ -70,11 +76,6 @@ iframe {
     border-radius: 50%;
     float: right;
     margin-right: 30px;
-}
-
-.bot-container {
-    height: 90%;
-    margin-bottom: 10px;
 }
 
 .instructions-container {
