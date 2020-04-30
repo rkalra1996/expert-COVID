@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
+
 <body>
-    <div class="banner">
+    <!-- <div class="banner">
         <p>Expert COVID</p>
+    </div> -->
+    <!--bot -->
+    <div class="botPlace">
+        <iframe allow="microphone;" width="350" height="100%"
+            src="https://console.dialogflow.com/api-client/demo/embedded/ea4588e3-e961-4a0f-8446-6c64435f8c3f"></iframe>
     </div>
-    <div class="container">
-        <div class="covidDetails">
-            <div class="content">
-                <p>
-                    Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-    
-                    Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
-                    
-                    The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. 
-                    
-                    The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
-                    
-                    At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
-                </p>
+    <!--intro section-->
+    <div class="content">
+        <div class="intro">
+            <p class="intro-text">
+                What is COVID-19 ?
+            </p>
+            <p class="intro-subtext">
+                Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and
+                recover without requiring special treatment. Older people, and those with underlying medical problems
+                like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to
+                develop serious illness.
+            </p>
+        </div>
+    </div>
+    <!--instructions section-->
+    <div class="instructions-container">
+        <div class="title">
+            <p class="text">
+                How to prevent ?
+            </p>
+        </div>
+        <div class="visuals">
+            <div class="round part-1">
+                <img src="./images/wash_hands.png" alt="avatar wash hands">
+            </div>
+            <div class="round part-2">
+                <img src="./images/use_sanitizer.png" alt="avatar sanitizer">
+            </div>
+            <div class="round part-3">
+                <img src="./images/wear_a_face_mask.png" alt="avatar wear a face mask">
+            </div>
+            <div class="round part-4">
+                <img src="./images/social_distancing.png" alt="avatar maintain social distance">
             </div>
         </div>
-        <div class="botPlace">
-            <iframe allow="microphone;" width="350" height="100%" src="https://console.dialogflow.com/api-client/demo/embedded/ea4588e3-e961-4a0f-8446-6c64435f8c3f"></iframe>
-        </div>
     </div>
+
 </body>
+
 </html>
