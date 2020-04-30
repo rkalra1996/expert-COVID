@@ -33,7 +33,15 @@ body {
     padding-top: 20px;
 }
 
-.covidDetails .botPlace {
+.botPlace {
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    height: 80%;
+    bottom: 0;
+}
+
+.covidDetails{
     flex: 1;
 }
 .content {
